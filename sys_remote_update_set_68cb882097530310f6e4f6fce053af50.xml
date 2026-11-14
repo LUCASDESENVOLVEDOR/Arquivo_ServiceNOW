@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-09-09 16:44:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Aula 29-08</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>605bfbb897474310f6e4f6fce053afea</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>68cb882097530310f6e4f6fce053af50</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_auto_flush_47ed1cf453313010b41dddeeff7b12ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auto_flush"><sys_auto_flush action="INSERT_OR_UPDATE"><active>false</active><age>5184000</age><cascade_delete>false</cascade_delete><clean_audit>false</clean_audit><clean_peripheral>false</clean_peripheral><cleanup_category/><conditions/><description/><force_optimize>false</force_optimize><matchfield>updated</matchfield><name/><sys_class_name>sys_auto_flush</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-03 09:29:23</sys_created_on><sys_id>47ed1cf453313010b41dddeeff7b12ad</sys_id><sys_mod_count>5</sys_mod_count><sys_name>pa_dm_delta_changes</sys_name><sys_package display_value="Data Snapshots Model" source="com.snc.pa.datamodel">e4a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_auto_flush_47ed1cf453313010b41dddeeff7b12ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:50</sys_updated_on><tablename>pa_dm_delta_changes</tablename></sys_auto_flush></record_update>]]></payload>
+<payload_hash>748187541</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>20cb882097530310f6e4f6fce053af54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e66f650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_dm_delta_changes</table>
+<target_name>pa_dm_delta_changes</target_name>
+<type>Auto Flush</type>
+<update_domain>global</update_domain>
+<update_guid>acb1838949cf831029f185fc24deef82</update_guid>
+<update_guid_history>acb1838949cf831029f185fc24deef82:748187541,ecb183897ecf83105622b48acd93c580:1661754844</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8df67f1cff002210583fffffffffffb0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;pa_cubes&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="pa_cubes"&gt;conditionsVALCHANGES^ORreport_sourceVALCHANGES^ORfacts_tableVALCHANGES^EQ&lt;item endquery="false" field="conditions" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="report_source" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="facts_table" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time conversion for indicators&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForIndicatorSources([current.sys_id]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-27 09:40:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8df67f1cff002210583fffffffffffb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time conversion for indicators&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8df67f1cff002210583fffffffffffb0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:43&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8df67f1cff002210583fffffffffffb0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>510961536</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>20cb882097530310f6e4f6fce053af7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e652390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_cubes</table>
+<target_name>Real time conversion for indicators</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3aa10389accf83108c7771efe445b257</update_guid>
+<update_guid_history>3aa10389accf83108c7771efe445b257:510961536,6aa1038974cf831070c8e656fd92d452:-983568103</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d5ddfffc97474310f6e4f6fce053afc8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>d5ddfffc97474310f6e4f6fce053afc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">55ddfffc97474310f6e4f6fce053afc2</sys_security_acl><sys_update_name>sys_security_acl_role_d5ddfffc97474310f6e4f6fce053afc8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>375853872</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>20cb882097530310f6e4f6fce053af83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fdc30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>d5ddfffc1c474310fa43eb3753d2a1d0</update_guid>
+<update_guid_history>d5ddfffc1c474310fa43eb3753d2a1d0:375853872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_ci_hardware_hhd_u_firmware_version</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_firmware_version" table="u_cmdb_ci_hardware_hhd"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Firmware version&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_firmware_version&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_cmdb_ci_hardware_hhd&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-29 18:57:00&lt;/sys_created_on&gt;&lt;sys_id&gt;32af333497874310f6e4f6fce053afac&lt;/sys_id&gt;&lt;sys_name&gt;Firmware version&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cmdb_ci_hardware_hhd_u_firmware_version&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-29 18:57:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1011861804</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>24cb882097530310f6e4f6fce053af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ee1e58c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD.Firmware version</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f380c08533874310e7b40344af109f50</update_guid>
+<update_guid_history>f380c08533874310e7b40344af109f50:-1011861804</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_f6f3e79293110210ff43ac29848918e4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;pa_indicators&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="pa_indicators"&gt;is_mlb_enabledVALCHANGES^is_mlb_enabled=true^EQ&lt;item endquery="false" field="is_mlb_enabled" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="is_mlb_enabled" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;PA ULB Conversion on Enable&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	insertOrUpdateDSStatusToInProgress(current.sys_id);
+    SNC.PAMLBConversion.enableMLBForAutomatedAndFormulaIndicators([current.sys_id]);
+})(current, previous);
+
+function insertOrUpdateDSStatusToInProgress(indicatorSysId) {
+	var DS_IN_PROGRESS = "3";
+	var gr = new GlideRecord("pa_indicator_data_snapshot_status");
+	if(gr.get("indicator", indicatorSysId)) {
+		gr.setValue("data_snapshot_status", DS_IN_PROGRESS);
+		gr.update();
+		return;
+	}
+	gr.initialize();
+	gr.setValue("indicator", indicatorSysId);
+	gr.setValue("data_snapshot_status", DS_IN_PROGRESS);
+	gr.insert();
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 00:11:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f6f3e79293110210ff43ac29848918e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;PA ULB Conversion on Enable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f6f3e79293110210ff43ac29848918e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:46&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f6f3e79293110210ff43ac29848918e4"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1947423143</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>24cb882097530310f6e4f6fce053af7f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e661ae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_indicators</table>
+<target_name>PA ULB Conversion on Enable</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>23a14389bfcf8310d5f1e95098934eb9</update_guid>
+<update_guid_history>23a14389bfcf8310d5f1e95098934eb9:1947423143,afa1438948cf83103733c37eeb692475:1265425536</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_cmdb_ci_hardware_hhd_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>93b8c0c597c74310f6e4f6fce053af95</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>serial_number</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>53b8c0c597c74310f6e4f6fce053af96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>asset_tag</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>17b8c0c597c74310f6e4f6fce053af96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_firmware_version</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>d7b8c0c597c74310f6e4f6fce053af96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>support_group</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>9bb8c0c597c74310f6e4f6fce053af96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>install_date</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>5fb8c0c597c74310f6e4f6fce053af96</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>install_status</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>13b8c0c597c74310f6e4f6fce053af97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>d3b8c0c597c74310f6e4f6fce053af97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>comments</element><list_id display_value="u_cmdb_ci_hardware_hhd" element="NULL" name="u_cmdb_ci_hardware_hhd" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fb8040197874310f6e4f6fce053af9d</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_id>97b8c0c597c74310f6e4f6fce053af97</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_cmdb_ci_hardware_hhd</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5fb8040197874310f6e4f6fce053af9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_cmdb_ci_hardware_hhd_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:46</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>7602264</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>24cb882097530310f6e4f6fce053af84</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f029c910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>17b8c0c532c743101d410706ff5eda9b</update_guid>
+<update_guid_history>17b8c0c532c743101d410706ff5eda9b:7602264</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7beadc0d974b4310f6e4f6fce053aff0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offeringLIKEInfinity (HHD)^EQ<item endquery="false" field="service_offering" goto="false" newquery="false" operator="LIKE" or="false" value="Infinity (HHD)"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><controlled_by_refs/><decision_type>allow</decision_type><description>Cargo HHD necessario para ler chamados do produto.</description><local_or_existing>Existing</local_or_existing><name>incident</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 20:52:16</sys_created_on><sys_id>7beadc0d974b4310f6e4f6fce053aff0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_7beadc0d974b4310f6e4f6fce053aff0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 20:52:16</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1712951349</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>28cb882097530310f6e4f6fce053af80</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f4b65600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>37ead84dfa4b431024c2364b03287ef0</update_guid>
+<update_guid_history>37ead84dfa4b431024c2364b03287ef0:1712951349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_dm_cdc_collector_3b35e9054300121091d000a09fb8f261</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_dm_cdc_collector"><sysauto_dm_cdc_collector action="INSERT_OR_UPDATE"><active>false</active><advanced>false</advanced><business_calendar/><condition/><conditional>false</conditional><description>This job sets up the initial data for analysis by capturing the current state of the fact table. It runs once when set up and prepares the system for daily updates.</description><entered_run_end/><entered_run_start/><entered_time/><job_type>firstday</job_type><kill_job>false</kill_job><max_drift/><name>First snapshot</name><offset/><offset_type>0</offset_type><repeat_every/><run_as/><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek/><run_daysofweek/><run_end/><run_month/><run_period>1970-01-01 01:00:00</run_period><run_start>2024-08-14 10:35:06</run_start><run_time/><run_type>periodically</run_type><run_weekinmonth/><sys_class_name>sysauto_dm_cdc_collector</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-14 10:36:27</sys_created_on><sys_domain>global</sys_domain><sys_id>3b35e9054300121091d000a09fb8f261</sys_id><sys_mod_count>2</sys_mod_count><sys_name>First snapshot</sys_name><sys_package display_value="Data Snapshots Model" source="com.snc.pa.datamodel">e4a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysauto_dm_cdc_collector_3b35e9054300121091d000a09fb8f261</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:08</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></sysauto_dm_cdc_collector></record_update>]]></payload>
+<payload_hash>-1636325615</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>2ccb882097530310f6e4f6fce053af52</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e5cbc60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>First snapshot</target_name>
+<type>Scheduled Data Collection</type>
+<update_domain>global</update_domain>
+<update_guid>d6818b49e5cf831026670c9cf6b30243</update_guid>
+<update_guid_history>d6818b49e5cf831026670c9cf6b30243:-1636325615,0a818b499dcf83106477b40200b53e3f:-1072949006</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2cf9f8d9ffa02210583fffffffffffcf</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;pa_breakdown_mappings&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="pa_breakdown_mappings"&gt;breakdownVALCHANGES^ORfacts_tableVALCHANGES^ORfieldVALCHANGES^ORscriptedVALCHANGES^EQ&lt;item endquery="false" field="breakdown" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="facts_table" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="field" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="scripted" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time conversion for indicators&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForBreakdowns([current.getValue("breakdown")]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 18:49:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2cf9f8d9ffa02210583fffffffffffcf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time conversion for indicators&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2cf9f8d9ffa02210583fffffffffffcf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:37&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2cf9f8d9ffa02210583fffffffffffcf"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2cf9f8d9ffa02210583fffffffffffcf&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 18:49:35&lt;/sys_created_on&gt;&lt;sys_id&gt;f28a3cd9ffa02210583fffffffffff48&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-26 18:49:35&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1673995675</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>2ccb882097530310f6e4f6fce053af7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e63ea20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_breakdown_mappings</table>
+<target_name>Real time conversion for indicators</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>29a18f49b6cf8310b99495c314d3f4a1</update_guid>
+<update_guid_history>29a18f49b6cf8310b99495c314d3f4a1:1673995675,51a18f49a9cf83100d29593e54fe589c:-54393612</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5dddfffc97474310f6e4f6fce053afa6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>5dddfffc97474310f6e4f6fce053afa6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">d5ddfffc97474310f6e4f6fce053af9c</sys_security_acl><sys_update_name>sys_security_acl_role_5dddfffc97474310f6e4f6fce053afa6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-276187228</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>2ccb882097530310f6e4f6fce053af81</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fd100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9dddfffc954743100e3f19f4221473bf</update_guid>
+<update_guid_history>9dddfffc954743100e3f19f4221473bf:-276187228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_05ddfffc97474310f6e4f6fce053af71</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Holographic Handheld HHD</name><order>100</order><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>05ddfffc97474310f6e4f6fce053af71</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHD</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_05ddfffc97474310f6e4f6fce053af71</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:05</sys_updated_on><title>Holographic Handheld HHD</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>686860039</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>60cb882097530310f6e4f6fce053af53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6f74b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>85ddfffc724743108f4a3cc7766a4677</update_guid>
+<update_guid_history>85ddfffc724743108f4a3cc7766a4677:686860039</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_4b7528ed37202210583f5a9be2924bb0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;pa_indicators&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="pa_indicators"&gt;related_breakdownsVALCHANGES^ORrelated_jobsVALCHANGES^typeIN1,2^EQ&lt;item endquery="false" field="related_breakdowns" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="related_jobs" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item display_value="1,2" endquery="false" field="type" goto="false" newquery="false" operator="IN" or="false" value="1,2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time for breakdowns and jobs&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForIndicators([current.sys_id]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-27 11:58:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4b7528ed37202210583f5a9be2924bb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time for breakdowns and jobs&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4b7528ed37202210583f5a9be2924bb0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:39&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4b7528ed37202210583f5a9be2924bb0"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4b7528ed37202210583f5a9be2924bb0&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-27 11:58:04&lt;/sys_created_on&gt;&lt;sys_id&gt;f0f5eced37202210583f5a9be2924b6d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-27 11:58:04&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>563421706</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>60cb882097530310f6e4f6fce053af7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e644480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_indicators</table>
+<target_name>Real time for breakdowns and jobs</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>b5a1cf499ccf831032fdc42b00143ea4</update_guid>
+<update_guid_history>b5a1cf499ccf831032fdc42b00143ea4:563421706,e5a1cf495ecf8310908bd683ea23159f:789362193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_83fa5c4d974b4310f6e4f6fce053af70</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 20:52:29</sys_created_on><sys_id>83fa5c4d974b4310f6e4f6fce053af70</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">4bfa5c4d974b4310f6e4f6fce053af6f</sys_security_acl><sys_update_name>sys_security_acl_role_83fa5c4d974b4310f6e4f6fce053af70</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 20:52:29</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-206920742</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>60cb882097530310f6e4f6fce053af82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f4b982a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>4bfa5c4d974b4310f6e4f6fce053af6f</table>
+<target_name>.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>47fa5c4de14b43108be0e4607da7f475</update_guid>
+<update_guid_history>47fa5c4de14b43108be0e4607da7f475:-206920742</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_auto_flush_6210c824ff202210583fffffffffff45</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auto_flush"><sys_auto_flush action="INSERT_OR_UPDATE"><active>false</active><age>2592000</age><cascade_delete>false</cascade_delete><clean_audit>false</clean_audit><clean_peripheral>false</clean_peripheral><cleanup_category/><conditions/><description/><force_optimize>false</force_optimize><matchfield>delta_date</matchfield><name/><sys_class_name>sys_auto_flush</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-24 06:40:09</sys_created_on><sys_id>6210c824ff202210583fffffffffff45</sys_id><sys_mod_count>1</sys_mod_count><sys_name>pa_dm_delta_task_state</sys_name><sys_package display_value="Data Snapshots Model" source="com.snc.pa.datamodel">e4a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_auto_flush_6210c824ff202210583fffffffffff45</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:51</sys_updated_on><tablename>pa_dm_delta_task_state</tablename></sys_auto_flush></record_update>]]></payload>
+<payload_hash>1478797813</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>64cb882097530310f6e4f6fce053af54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e6715c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_dm_delta_task_state</table>
+<target_name>pa_dm_delta_task_state</target_name>
+<type>Auto Flush</type>
+<update_domain>global</update_domain>
+<update_guid>a8b18389accf8310a86d5b8b9c9cb1c6</update_guid>
+<update_guid_history>a8b18389accf8310a86d5b8b9c9cb1c6:1478797813,28b1838976cf8310dec48dcded3e9186:-1164256370</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8f771805ff102210583fffffffffffba</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;pa_indicators&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="pa_indicators"&gt;typeIN1,2^conditionsVALCHANGES^ORaggregateVALCHANGES^ORformulaVALCHANGES^ORcubeVALCHANGES^ORbenchmarkingVALCHANGES^ORfieldVALCHANGES^ORscriptedVALCHANGES^EQ&lt;item display_value="1,2" endquery="false" field="type" goto="false" newquery="false" operator="IN" or="false" value="1,2"/&gt;&lt;item endquery="false" field="conditions" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="aggregate" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="formula" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="cube" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="benchmarking" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="field" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="scripted" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time conversion for indicators&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForIndicators([current.sys_id]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-13 11:22:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8f771805ff102210583fffffffffffba&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time conversion for indicators&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8f771805ff102210583fffffffffffba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:44&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8f771805ff102210583fffffffffffba"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1197246351</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>64cb882097530310f6e4f6fce053af7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e658020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_indicators</table>
+<target_name>Real time conversion for indicators</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>83a1038910cf8310f6914512358e34c5</update_guid>
+<update_guid_history>83a1038910cf8310f6914512358e34c5:-1197246351,f2a103890ecf8310ec018c8789d91dc0:1588545802</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d7945801974b4310f6e4f6fce053af06</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 20:47:41</sys_created_on><sys_id>d7945801974b4310f6e4f6fce053af06</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">b1645401974b4310f6e4f6fce053af85</sys_security_acl><sys_update_name>sys_security_acl_role_d7945801974b4310f6e4f6fce053af06</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 20:47:41</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1297571367</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>64cb882097530310f6e4f6fce053af83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f4734dc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>b1645401974b4310f6e4f6fce053af85</table>
+<target_name>.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>30e9d885954b43105206e5c7af9324de</update_guid>
+<update_guid_history>30e9d885954b43105206e5c7af9324de:1297571367</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cmdb_ci_hardware_hhd_sys_class_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="sys_class_name" label="Class" language="en" table="u_cmdb_ci_hardware_hhd"><sys_documentation action="INSERT_OR_UPDATE"><element>sys_class_name</element><help/><hint/><label>Class</label><language>en</language><name>u_cmdb_ci_hardware_hhd</name><plural>Class</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:10</sys_created_on><sys_id>d2dd733097874310f6e4f6fce053af29</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Class</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cmdb_ci_hardware_hhd_sys_class_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:10</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>641534186</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>68cb882097530310f6e4f6fce053af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed710820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD.Class</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a6dd7330d787431071a2dd443f964fa4</update_guid>
+<update_guid_history>a6dd7330d787431071a2dd443f964fa4:641534186</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_19ddfffc97474310f6e4f6fce053afd2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Existing</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>19ddfffc97474310f6e4f6fce053afd2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_19ddfffc97474310f6e4f6fce053afd2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-264799970</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>68cb882097530310f6e4f6fce053af7f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fe010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2dddfffc4c474310f3b535b2151880d6</update_guid>
+<update_guid_history>2dddfffc4c474310f3b535b2151880d6:-264799970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_cdddfffc97474310f6e4f6fce053af94</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Holographic Handheld HHD">cdddfffc97474310f6e4f6fce053af8e</application><filter/><name>Holographic Handheld HHDs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cdddfffc97474310f6e4f6fce053af94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHDs</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_cdddfffc97474310f6e4f6fce053af94</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:06</sys_updated_on><table>u_cmdb_ci_hardware_hhd</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>648212922</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>68cb882097530310f6e4f6fce053af84</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6f9390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHDs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>0dddfffce34743100b785ebac141c799</update_guid>
+<update_guid_history>0dddfffce34743100b785ebac141c799:648212922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_16818b4997cf8310f6e4f6fce053af45</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>com.snc.pa.replication.status</name><read_roles/><suffix>global</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-30 09:00:09</sys_created_on><sys_id>16818b4997cf8310f6e4f6fce053af45</sys_id><sys_mod_count>0</sys_mod_count><sys_name>com.snc.pa.replication.status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_16818b4997cf8310f6e4f6fce053af45</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:09</sys_updated_on><type>string</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=16818b4997cf8310f6e4f6fce053af45"/></record_update>]]></payload>
+<payload_hash>-628068162</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>6ccb882097530310f6e4f6fce053af7b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e5fa120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>com.snc.pa.replication.status</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>0191cb49cfcf831045227b6a2d009ae2</update_guid>
+<update_guid_history>0191cb49cfcf831045227b6a2d009ae2:-628068162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b1645401974b4310f6e4f6fce053af85</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offeringLIKEInfinity (HHD)^EQ<item endquery="false" field="service_offering" goto="false" newquery="false" operator="LIKE" or="false" value="Infinity (HHD)"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><controlled_by_refs/><decision_type>allow</decision_type><description>Cargo HHD necessario para ler chamados do produto.</description><local_or_existing>Existing</local_or_existing><name>incident</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 20:47:41</sys_created_on><sys_id>b1645401974b4310f6e4f6fce053af85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_b1645401974b4310f6e4f6fce053af85</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 20:47:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>817960809</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>6ccb882097530310f6e4f6fce053af80</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f4735570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3ce958c98b4b4310fba1d4c73cfe9b6e</update_guid>
+<update_guid_history>3ce958c98b4b4310fba1d4c73cfe9b6e:817960809</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pwd_process_4ff0c881bf220100710071a7bf0739fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pwd_process"><pwd_process action="INSERT_OR_UPDATE"><active>false</active><allow_verification_choice>false</allow_verification_choice><apply_to_all_users>true</apply_to_all_users><auto_gen_password>true</auto_gen_password><change>false</change><cred_store display_value="Local ServiceNow Instance">6e51033fbf020100710071a7bf0739e0</cred_store><description>Service-desk process for the local ServiceNow as a stand-alone credential-store</description><display_captcha>false</display_captcha><display_password>true</display_password><email_password_reset_url>false</email_password_reset_url><enable_security_score_notification>false</enable_security_score_notification><enabled_on_chatbot>false</enabled_on_chatbot><enrollment_reminder>false</enrollment_reminder><expiration_run_period/><expiration_run_start/><expiration_run_time/><expiration_run_time_zone/><expiration_schedule_frequency/><expiration_warn_days/><identification_type/><label>Service-Desk Password Reset for Local ServiceNow</label><min_verifications>1</min_verifications><name>Service-Desk Password Reset for Local ServiceNow</name><password_needs_reset>true</password_needs_reset><post_processor/><process_owner/><public_access>false</public_access><public_url/><pwd_validity_days/><redirect_url/><reset>true</reset><run_dayofmonth/><run_dayofweek/><run_start/><run_time/><run_type/><security_score/><send_email>true</send_email><send_expiration_reminder>false</send_expiration_reminder><sender_alias/><sys_class_name>pwd_process</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2013-07-11 18:00:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4ff0c881bf220100710071a7bf0739fa</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Service-Desk Password Reset for Local ServiceNow</sys_name><sys_package display_value="Password Reset" source="com.glideapp.password_reset">b2746dcca5e503108bb220b7a4d2126b</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pwd_process_4ff0c881bf220100710071a7bf0739fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-09 16:32:26</sys_updated_on><unlock_account>true</unlock_account><url_suffix/><user_experience_entry/><user_experience_failure/><user_experience_footer/><user_experience_header/><user_experience_success/></pwd_process><sys_translated_text action="delete_multiple" query="documentkey=4ff0c881bf220100710071a7bf0739fa"/></record_update>]]></payload>
+<payload_hash>559401970</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a0cb882097530310f6e4f6fce053af51</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08703794e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>Service-Desk Password Reset for Local ServiceNow</target_name>
+<type>Password Reset Process</type>
+<update_domain>global</update_domain>
+<update_guid>99f848646f130310eba298f4e9086b14</update_guid>
+<update_guid_history>99f848646f130310eba298f4e9086b14:559401970,de154d6278320310729eb3fa94c19320:559401970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_dm_cdc_collector_079dbd16770230101b512608c8106195</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_dm_cdc_collector"><sysauto_dm_cdc_collector action="INSERT_OR_UPDATE"><active>false</active><advanced>false</advanced><business_calendar/><condition/><conditional>false</conditional><description>This job collects and stores the changes in the data sources in the last 24 hours. It runs every hour and updates the scores once a day according to the data source time zone.</description><entered_run_end/><entered_run_start/><entered_time/><job_type>daily</job_type><kill_job>false</kill_job><max_drift/><name>Incremental daily snapshot</name><offset/><offset_type>0</offset_type><repeat_every/><run_as/><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek/><run_daysofweek/><run_end/><run_month/><run_period>1970-01-01 01:00:00</run_period><run_start>2021-08-20 18:32:38</run_start><run_time/><run_type>periodically</run_type><run_weekinmonth/><sys_class_name>sysauto_dm_cdc_collector</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-20 18:33:16</sys_created_on><sys_domain>global</sys_domain><sys_id>079dbd16770230101b512608c8106195</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Incremental daily snapshot</sys_name><sys_package display_value="Data Snapshots Model" source="com.snc.pa.datamodel">e4a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysauto_dm_cdc_collector_079dbd16770230101b512608c8106195</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:04</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></sysauto_dm_cdc_collector></record_update>]]></payload>
+<payload_hash>-1401897127</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a0cb882097530310f6e4f6fce053af52</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e5bf460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>Incremental daily snapshot</target_name>
+<type>Scheduled Data Collection</type>
+<update_domain>global</update_domain>
+<update_guid>2d814b49c6cf8310e550d86868a029b6</update_guid>
+<update_guid_history>2d814b49c6cf8310e550d86868a029b6:-1401897127,1d814b49f1cf8310301543214f15dab0:1386048826</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_496db67897470310f6e4f6fce053af8b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Toggle to disable Data Snapshots.
+		Note : Automatic re-enablement of the Data Snapshots global property is not supported. Please contact Support for assistance with cleanup and re-enablement.</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>com.snc.pa.dm.enable.mlb</name><read_roles/><suffix>global</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2026-08-29 14:03:34</sys_created_on><sys_id>496db67897470310f6e4f6fce053af8b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>com.snc.pa.dm.enable.mlb</sys_name><sys_package display_value="Data Snapshots" source="com.snc.pa.mlb">60a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_496db67897470310f6e4f6fce053af8b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:21</sys_updated_on><type>boolean</type><value>false</value><write_roles>admin</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=496db67897470310f6e4f6fce053af8b"/></record_update>]]></payload>
+<payload_hash>223379560</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a0cb882097530310f6e4f6fce053af7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e632380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>com.snc.pa.dm.enable.mlb</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>b8a14f4911cf83100d3c7d753736ba09</update_guid>
+<update_guid_history>b8a14f4911cf83100d3c7d753736ba09:223379560,69910f4907cf83100446cd5d93e09347:1503950299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_d5ddfffc97474310f6e4f6fce053af9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Existing</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:06</sys_created_on><sys_id>d5ddfffc97474310f6e4f6fce053af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_d5ddfffc97474310f6e4f6fce053af9c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1356027666</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a0cb882097530310f6e4f6fce053af81</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fc390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>59ddfffcca474310aff174f3e5379ba4</update_guid>
+<update_guid_history>59ddfffcca474310aff174f3e5379ba4:-1356027666</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_05ddfffc97474310f6e4f6fce053af86</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Holographic Handheld HHD">05ddfffc97474310f6e4f6fce053af71</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Holographic Handheld HHDs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_hardware_hhd</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_holographic_handheld_hhd_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>05ddfffc97474310f6e4f6fce053af86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHDs</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_05ddfffc97474310f6e4f6fce053af86</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:06</sys_updated_on><timeline_page/><title>Holographic Handheld HHDs</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1875790494</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a4cb882097530310f6e4f6fce053af53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6f8770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHDs</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>c5ddfffcb5474310496695e4aa67068c</update_guid>
+<update_guid_history>c5ddfffcb5474310496695e4aa67068c:-1875790494</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_615c4a0d37a02210583f5a9be2924bca</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sysauto_pa&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sysauto_pa"&gt;activeVALCHANGES^ORrun_asVALCHANGES^ORrun_as_tzVALCHANGES^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="run_as" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item display_value="-- None --" endquery="false" field="run_as_tz" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time conversion for indicators&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForJobs([current.sys_id]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 06:28:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;615c4a0d37a02210583f5a9be2924bca&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time conversion for indicators&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_615c4a0d37a02210583f5a9be2924bca&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:40&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=615c4a0d37a02210583f5a9be2924bca"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;615c4a0d37a02210583f5a9be2924bca&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 06:28:04&lt;/sys_created_on&gt;&lt;sys_id&gt;c1d0964d37a02210583f5a9be2924b07&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-26 06:28:04&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1418670591</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a4cb882097530310f6e4f6fce053af7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e6497b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>sysauto_pa</table>
+<target_name>Real time conversion for indicators</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>8ea10389cecf83105ef6027e5627d511</update_guid>
+<update_guid_history>8ea10389cecf83105ef6027e5627d511:-1418670591,4aa1cf4997cf8310fae84cf9f2fdc7a9:763842568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_a9ddfffc97474310f6e4f6fce053afd8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>a9ddfffc97474310f6e4f6fce053afd8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">19ddfffc97474310f6e4f6fce053afd2</sys_security_acl><sys_update_name>sys_security_acl_role_a9ddfffc97474310f6e4f6fce053afd8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-517817239</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a4cb882097530310f6e4f6fce053af82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fe700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a9ddfffcd5474310439cde18ab2753e0</update_guid>
+<update_guid_history>a9ddfffcd5474310439cde18ab2753e0:-517817239</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_904cfb3c97474310f6e4f6fce053af77</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Holographic Handheld HHD</label><live_feed_enabled>false</live_feed_enabled><name>u_cmdb_ci_hardware_hhd</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Hardware" name="cmdb_ci_hardware">c92f1d44a5a103108bb220b7a4d21257</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:05</sys_created_on><sys_id>904cfb3c97474310f6e4f6fce053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_904cfb3c97474310f6e4f6fce053af77</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:05</sys_updated_on><update_access>false</update_access><user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-536648228</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a8cb882097530310f6e4f6fce053af54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed710a00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>2edd73306b87431010bc06537f95e3a7</update_guid>
+<update_guid_history>2edd73306b87431010bc06537f95e3a7:-536648228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_b9452ebcffa42210583fffffffffff7f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_report_source&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_report_source"&gt;tableVALCHANGES^ORfilterVALCHANGES^EQ&lt;item endquery="false" field="table" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="filter" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time conversion for indicators&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForReportSources([current.sys_id]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-25 13:22:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b9452ebcffa42210583fffffffffff7f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time conversion for indicators&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_b9452ebcffa42210583fffffffffff7f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:45&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b9452ebcffa42210583fffffffffff7f"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;b9452ebcffa42210583fffffffffff7f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-25 13:22:18&lt;/sys_created_on&gt;&lt;sys_id&gt;8f06a6fcffa42210583fffffffffff28&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-25 13:22:18&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-796634717</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a8cb882097530310f6e4f6fce053af7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e65d2e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>sys_report_source</table>
+<target_name>Real time conversion for indicators</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5fa1438939cf8310bd08cdf2945ee570</update_guid>
+<update_guid_history>5fa1438939cf8310bd08cdf2945ee570:-796634717,9fa14389e2cf83106d0dfc458a03656b:-314400708</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e9dd333097874310f6e4f6fce053af01</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>e9dd333097874310f6e4f6fce053af01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_cmdb_ci_hardware_hhd">e9ddfffc97474310f6e4f6fce053afe2</sys_security_acl><sys_update_name>sys_security_acl_role_e9dd333097874310f6e4f6fce053af01</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-102633890</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>a8cb882097530310f6e4f6fce053af83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6ff640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e9dd3330d1874310749dd1c4716e5f09</update_guid>
+<update_guid_history>e9dd3330d1874310749dd1c4716e5f09:-102633890</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cmdb_ci_hardware_hhd_u_firmware_version_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_firmware_version" label="Firmware version" language="en" table="u_cmdb_ci_hardware_hhd"><sys_documentation action="INSERT_OR_UPDATE"><element>u_firmware_version</element><help/><hint/><label>Firmware version</label><language>en</language><name>u_cmdb_ci_hardware_hhd</name><plural>Firmware versions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:57:01</sys_created_on><sys_id>bb80c08597874310f6e4f6fce053af06</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Firmware version</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cmdb_ci_hardware_hhd_u_firmware_version_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:57:01</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2119256753</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>accb882097530310f6e4f6fce053af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ee1e5e50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD.Firmware version</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3b80c085888743109a060f07353a5d53</update_guid>
+<update_guid_history>3b80c085888743109a060f07353a5d53:2119256753</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4bfa5c4d974b4310f6e4f6fce053af6f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="incident">service_offeringLIKEInfinity (HHD)^EQ<item endquery="false" field="service_offering" goto="false" newquery="false" operator="LIKE" or="false" value="Infinity (HHD)"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><controlled_by_refs/><decision_type>allow</decision_type><description>Cargo HHD necessario para ler chamados do produto.</description><local_or_existing>Existing</local_or_existing><name>incident</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 20:52:29</sys_created_on><sys_id>4bfa5c4d974b4310f6e4f6fce053af6f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_4bfa5c4d974b4310f6e4f6fce053af6f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 20:52:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-558902171</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>accb882097530310f6e4f6fce053af7f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f4b98820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>incident</table>
+<target_name>incident</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>0ffa9c4d2a4b4310be3c34fd345b0229</update_guid>
+<update_guid_history>0ffa9c4d2a4b4310be3c34fd345b0229:-558902171</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_dcc804c597c74310f6e4f6fce053af12</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="dcc804c597c74310f6e4f6fce053af12" sys_domain="global" table="u_cmdb_ci_hardware_hhd" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>001c888d97c74310f6e4f6fce053afb4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>serial_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>c81c888d97c74310f6e4f6fce053afb4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>asset_tag</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>841c888d97c74310f6e4f6fce053afb5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_firmware_version</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>401c888d97c74310f6e4f6fce053afb6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>support_group</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>0c1c888d97c74310f6e4f6fce053afb6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>install_date</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>c41c888d97c74310f6e4f6fce053afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>install_status</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>801c888d97c74310f6e4f6fce053afb8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>4c1c888d97c74310f6e4f6fce053afb8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to.email</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>081c888d97c74310f6e4f6fce053afb9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>c01c888d97c74310f6e4f6fce053afba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fault_count</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:47:17</sys_created_on><sys_id>8c1c888d97c74310f6e4f6fce053afba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_cmdb_ci_hardware_hhd" sys_domain="global" view="Default view">dcc804c597c74310f6e4f6fce053af12</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:47:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>true</header><name>u_cmdb_ci_hardware_hhd</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 19:32:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dcc804c597c74310f6e4f6fce053af12</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_dcc804c597c74310f6e4f6fce053af12</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 19:32:50</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1645349967</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>accb882097530310f6e4f6fce053af84</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f0fe84d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>481c888ddec74310b47f20948138f6be</update_guid>
+<update_guid_history>481c888ddec74310b47f20948138f6be:1645349967,cefac00d1dc74310c41a92f6accaa2c0:-87137108,534988096ec7431074e7a0405e52e179:-686161013,17498809ebc74310acb88caabcd28929:-1496265235</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_cmdb_ci_hardware_hhd__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Holographic Handheld HHD" language="en" table="u_cmdb_ci_hardware_hhd"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Holographic Handheld HHD</label><language>en</language><name>u_cmdb_ci_hardware_hhd</name><plural>Holographic Handheld HHDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:08</sys_created_on><sys_id>35dd333097874310f6e4f6fce053af5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHD</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_cmdb_ci_hardware_hhd__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:08</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-828990827</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e0cb882097530310f6e4f6fce053af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed710690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>eadd73307a8743108a5b3eeb5abb38a1</update_guid>
+<update_guid_history>eadd73307a8743108a5b3eeb5abb38a1:-828990827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_55ddfffc97474310f6e4f6fce053afc2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Existing</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>55ddfffc97474310f6e4f6fce053afc2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_55ddfffc97474310f6e4f6fce053afc2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-876296926</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e0cb882097530310f6e4f6fce053af80</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fd650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>59ddfffc42474310ca821ea7685446c6</update_guid>
+<update_guid_history>59ddfffc42474310ca821ea7685446c6:-876296926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_3cddff7497474310f6e4f6fce053af82</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>u_holographic_handheld_hhd_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:05</sys_created_on><sys_id>3cddff7497474310f6e4f6fce053af82</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_3cddff7497474310f6e4f6fce053af82</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:05</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-584916866</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e0cb882097530310f6e4f6fce053af85</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6f5ee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>u_holographic_handheld_hhd_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>38ddfffc94474310457669affa8b1040</update_guid>
+<update_guid_history>38ddfffc94474310457669affa8b1040:-584916866</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_dm_cdc_collector_1d996a38ff322210a3bbffffffffffe7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_dm_cdc_collector"><sysauto_dm_cdc_collector action="INSERT_OR_UPDATE"><active>false</active><advanced>false</advanced><business_calendar/><condition/><conditional>false</conditional><description>This job collects and stores all the changes in the data sources until now. </description><entered_run_end/><entered_run_start/><entered_time/><job_type>all_changes</job_type><kill_job>false</kill_job><max_drift/><name>Incremental all changes snapshot</name><offset/><offset_type>0</offset_type><repeat_every/><run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek/><run_daysofweek/><run_end/><run_month/><run_period>1970-01-01 00:30:00</run_period><run_start>2021-08-20 18:32:38</run_start><run_time/><run_type>periodically</run_type><run_weekinmonth/><sys_class_name>sysauto_dm_cdc_collector</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-15 09:59:01</sys_created_on><sys_domain>global</sys_domain><sys_id>1d996a38ff322210a3bbffffffffffe7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Incremental all changes snapshot</sys_name><sys_package display_value="Data Snapshots Model" source="com.snc.pa.datamodel">e4a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysauto_dm_cdc_collector_1d996a38ff322210a3bbffffffffffe7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:06</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></sysauto_dm_cdc_collector></record_update>]]></payload>
+<payload_hash>407203365</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e4cb882097530310f6e4f6fce053af52</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e5c6400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>Incremental all changes snapshot</target_name>
+<type>Scheduled Data Collection</type>
+<update_domain>global</update_domain>
+<update_guid>8a818b4950cf83106455ce4bcd755a3b</update_guid>
+<update_guid_history>8a818b4950cf83106455ce4bcd755a3b:407203365,75814b49c2cf8310c74f5c5abcdabbbb:1726887046</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_63f1a53377451110cd1b756f1b5a9991</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Captures the last execution timestamp of the scheduled job 'Surface New Unconnected Content of Categories'</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>taxonomy.category.new_content_job_last_run</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-08 07:43:25</sys_created_on><sys_id>63f1a53377451110cd1b756f1b5a9991</sys_id><sys_mod_count>13</sys_mod_count><sys_name>taxonomy.category.new_content_job_last_run</sys_name><sys_package display_value="Content Taxonomy" source="com.snc.taxonomy">5a86a9c0a5a903108bb220b7a4d21227</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_63f1a53377451110cd1b756f1b5a9991</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 07:00:06</sys_updated_on><type>date_format</type><value>2026-09-06</value><write_roles>maint</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=63f1a53377451110cd1b756f1b5a9991"/></record_update>]]></payload>
+<payload_hash>57880970</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e4cb882097530310f6e4f6fce053af7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0758469860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>taxonomy.category.new_content_job_last_run</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>8839a693158b47503816f9c9b2a2b416</update_guid>
+<update_guid_history>8839a693158b47503816f9c9b2a2b416:57880970,c1462201f70f8310f1afb3ba60d8df26:-16163694,c603ae7a1676c3104588ce1f57fad13b:447618350,16f385e20f320310ede2ba8a67d685ce:4006927,1ef385e25e320310b2f3a9cf01bd3d8a:-437767834</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_e9ddfffc97474310f6e4f6fce053afe2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_hardware_hhd</description><local_or_existing>Existing</local_or_existing><name>u_cmdb_ci_hardware_hhd</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:07</sys_created_on><sys_id>e9ddfffc97474310f6e4f6fce053afe2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_hardware_hhd</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_e9ddfffc97474310f6e4f6fce053afe2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1406908492</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e4cb882097530310f6e4f6fce053af81</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6fec80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>u_cmdb_ci_hardware_hhd</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>edddfffc5f474310b61ce778e4b057e6</update_guid>
+<update_guid_history>edddfffc5f474310b61ce778e4b057e6:1406908492</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_auto_flush_11aa4b019f411210866a62198a0a1cb4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auto_flush"><sys_auto_flush action="INSERT_OR_UPDATE"><active>false</active><age>2592000</age><cascade_delete>false</cascade_delete><clean_audit>false</clean_audit><clean_peripheral>false</clean_peripheral><cleanup_category/><conditions/><description/><force_optimize>false</force_optimize><matchfield>date</matchfield><name/><sys_class_name>sys_auto_flush</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-03 11:01:33</sys_created_on><sys_id>11aa4b019f411210866a62198a0a1cb4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>pa_cdc_transfer_changes_performance</sys_name><sys_package display_value="Data Snapshots Model" source="com.snc.pa.datamodel">e4a77abc97030310f6e4f6fce053affe</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_auto_flush_11aa4b019f411210866a62198a0a1cb4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-30 09:00:49</sys_updated_on><tablename>pa_cdc_transfer_changes_performance</tablename></sys_auto_flush></record_update>]]></payload>
+<payload_hash>-433033274</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e8cb882097530310f6e4f6fce053af53</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e66ced0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_cdc_transfer_changes_performance</table>
+<target_name>pa_cdc_transfer_changes_performance</target_name>
+<type>Auto Flush</type>
+<update_domain>global</update_domain>
+<update_guid>d0b1838944cf831045e4b66defae497d</update_guid>
+<update_guid_history>d0b1838944cf831045e4b66defae497d:-433033274,dcb1838979cf83102d4b59ef5c7d163b:1074715359</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_64ab3ec1ff202210583fffffffffffb3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;pa_job_indicators&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="pa_job_indicators"&gt;activeVALCHANGES^ORindicatorVALCHANGES^ORjobVALCHANGES^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="indicator" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="job" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Real time conversion for indicators&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	SNC.PAMLBConversion.realTimeConversionForIndicators([current.getValue("indicator")]);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 09:40:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;64ab3ec1ff202210583fffffffffffb3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Real time conversion for indicators&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Snapshots" source="com.snc.pa.mlb"&gt;60a77abc97030310f6e4f6fce053affe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_64ab3ec1ff202210583fffffffffffb3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-30 09:00:41&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=64ab3ec1ff202210583fffffffffffb3"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;64ab3ec1ff202210583fffffffffffb3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 09:40:36&lt;/sys_created_on&gt;&lt;sys_id&gt;ddec3ec1ff202210583fffffffffffce&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-26 09:40:36&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>898687230</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e8cb882097530310f6e4f6fce053af7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a051e64d640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>pa_job_indicators</table>
+<target_name>Real time conversion for indicators</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>1aa10389c5cf831024bea0eb853d1b4d</update_guid>
+<update_guid_history>1aa10389c5cf831024bea0eb853d1b4d:898687230,dea103890acf8310fd3bf844146f5816:-1945174715</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b3eadc0d974b4310f6e4f6fce053aff1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 20:52:15</sys_created_on><sys_id>b3eadc0d974b4310f6e4f6fce053aff1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.u_holographic_handheld_hhd_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">7beadc0d974b4310f6e4f6fce053aff0</sys_security_acl><sys_update_name>sys_security_acl_role_b3eadc0d974b4310f6e4f6fce053aff1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 20:52:15</sys_updated_on><sys_user_role display_value="u_holographic_handheld_hhd_user" name="u_holographic_handheld_hhd_user">3cddff7497474310f6e4f6fce053af82</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1510367251</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>e8cb882097530310f6e4f6fce053af82</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04f4b65060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>7beadc0d974b4310f6e4f6fce053aff0</table>
+<target_name>.u_holographic_handheld_hhd_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ffead84d994b4310688dc1db5bdd19e9</update_guid>
+<update_guid_history>ffead84d994b4310688dc1db5bdd19e9:-1510367251</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_ci_hardware_hhd_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" extends="cmdb_ci_hardware" table="u_cmdb_ci_hardware_hhd"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;enforce_dot_walk_cross_scope_access=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_cmdb_ci_hardware_hhd&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-29 18:45:08&lt;/sys_created_on&gt;&lt;sys_id&gt;e9dd333097874310f6e4f6fce053af0b&lt;/sys_id&gt;&lt;sys_name&gt;u_cmdb_ci_hardware_hhd&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_cmdb_ci_hardware_hhd_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-29 18:45:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1050208069</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>eccb882097530310f6e4f6fce053af54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed710360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>u_cmdb_ci_hardware_hhd</table>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>26dd733099874310e05a974eb937ea9e</update_guid>
+<update_guid_history>26dd733099874310e05a974eb937ea9e:-1050208069</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Analytics Toolkit">6f493c65e05545aaa92f3c30b1e8458f</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_b981c7bfffb32210ff00ffffffffffb7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="DELETE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;par_visualization_configuration&lt;/collection&gt;&lt;condition&gt;current.operation() == 'delete'&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Disable par_visualization_configuration&lt;/name&gt;&lt;order&gt;1000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	new global.AisDisableSearchSignalEvent().disable(current.sys_id);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-29 14:08:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b981c7bfffb32210ff00ffffffffffb7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Disable par_visualization_configuration&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Analytics Toolkit" source="sn_analytics_tk"&gt;6f493c65e05545aaa92f3c30b1e8458f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Analytics Toolkit"&gt;6f493c65e05545aaa92f3c30b1e8458f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_b981c7bfffb32210ff00ffffffffffb7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-29 14:08:40&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b981c7bfffb32210ff00ffffffffffb7"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>273801652</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>eccb882097530310f6e4f6fce053af7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a050b78bd00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table>par_visualization_configuration</table>
+<target_name>Disable par_visualization_configuration</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>1af53949ac478310b1b197794d26d518</update_guid>
+<update_guid_history>1af53949ac478310b1b197794d26d518:273801652,caf5f5499547831049850a1abe6cf8b4:-1961858240</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_cdddfffc97474310f6e4f6fce053af8e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Holographic Handheld HHD</name><order/><roles>u_holographic_handheld_hhd_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-29 18:45:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cdddfffc97474310f6e4f6fce053af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Holographic Handheld HHD</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_cdddfffc97474310f6e4f6fce053af8e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-29 18:45:06</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-1277138571</payload_hash>
+<remote_update_set display_value="Aula 29-08">68cb882097530310f6e4f6fce053af50</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-09 16:44:41</sys_created_on>
+<sys_id>eccb882097530310f6e4f6fce053af83</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a04ed6f8d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-09 16:44:41</sys_updated_on>
+<table/>
+<target_name>Holographic Handheld HHD</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>cdddfffc22474310d37b478a275e9a92</update_guid>
+<update_guid_history>cdddfffc22474310d37b478a275e9a92:-1277138571</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
